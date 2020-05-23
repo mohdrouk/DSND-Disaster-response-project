@@ -19,7 +19,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score,label_ranking_average_precision_score
 from sklearn.model_selection  import GridSearchCV
 
-nltk.download(['punkt','stopwords','wordnet']))
+nltk.download(['punkt','stopwords','wordnet'])
 
 def load_data(database_filepath):
     """
